@@ -12,17 +12,21 @@ Usage
     extractor = ContentExtractor()
     body, title = extractor.analyse(html)
 
+analyseメソッドに渡す引数は、
+PythonのUnicode型、もしくはUTF-8の文字列型。
+
 
 License
 -------
-:copyright: 2012 by najeira <najeira@gmail.com>.
-:license: BSD.
+
+* Copyright: 2012 by najeira <najeira@gmail.com>.
+* License: BSD.
 
 
 Based on
 --------
 
-http://labs.cybozu.co.jp/blog/nakatani/2007/09/web_1.html
-Author:: Nakatani Shuyo
-Copyright:: (c)2007 Cybozu Labs Inc. All rights reserved.
-License:: BSD
+* http://labs.cybozu.co.jp/blog/nakatani/2007/09/web_1.html
+* Author:: Nakatani Shuyo
+* Copyright:: (c)2007 Cybozu Labs Inc. All rights reserved.
+* License:: BSD
