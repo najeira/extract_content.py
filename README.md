@@ -2,6 +2,7 @@ extract_content
 ===============
 
 Extract content from html.
+
 与えられた html テキストから本文と思わしきテキストを抽出します。
 
 
@@ -19,7 +20,7 @@ PythonのUnicode型、もしくはUTF-8の文字列型。
 License
 -------
 
-* Copyright: 2012 by najeira <najeira@gmail.com>.
+* Copyright: 2012 by najeira.
 * License: BSD.
 
 
