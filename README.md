@@ -3,8 +3,6 @@ extract_content
 
 Extract content from html.
 
-与えられた html テキストから本文と思わしきテキストを抽出します。
-
 
 Usage
 -----
@@ -13,8 +11,8 @@ Usage
     extractor = ContentExtractor()
     body, title = extractor.analyse(html)
 
-analyseメソッドに渡す引数は、
-PythonのUnicode型、もしくはUTF-8の文字列型。
+Argument of ContentExtractor#analyse should be
+Unicode type or UTF-8 string.
 
 
 License
