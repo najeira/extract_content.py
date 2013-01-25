@@ -158,7 +158,7 @@ class ContentExtractor(object):
       not_body_rate = (self.count_pattern(block, opt["waste_expressions"])
         + self.count_pattern(block, self.AMAZON_RE) / 2.0)
       if not_body_rate > 0:
-        c *= (0.72 ** not_body_rate) 
+        c *= (0.72 ** not_body_rate)
       c1 = c * continuous
       if opt["debug"]:
         print "----- %f*%f=%f %d \n%s" % (
